@@ -22,7 +22,7 @@ The tools are :
 * multipathd :  Detects when paths fail and execs multipath to update things.
 
 %prep
-%setup -q -c -n multipath-tools-%{version}
+%setup -q -n multipath-tools-%{version}
 %patch0 -p1
 
 %build
