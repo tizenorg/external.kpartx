@@ -40,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(-,root,root,-)
 /sbin/kpartx
-/lib/udev/rules.d/kpartx.rules
-/lib/udev/kpartx_id
+%{_libdir}/udev/rules.d/kpartx.rules
+/%{_lib}/udev/kpartx_id
 %{_mandir}/man8/kpartx.8.gz
 
