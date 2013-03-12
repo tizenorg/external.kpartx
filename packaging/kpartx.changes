@@ -1,0 +1,9 @@
+* Fri Aug 28 2009 Yi Yang <yi.y.yang@intel.com> 0.4.9
+- Update to 0.4.9
+
+* Thu Apr 23 2009 Passion Zhao <passion.zhao@intel.com> 0.4.8
+- Add device-mapper-multipath-CVE-2009-0115.patch
+
+* Tue Feb 10 2009 Anas Nashif <anas.nashif@intel.com> 0.4.8
+- Initial import into Moblin
+
