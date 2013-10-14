@@ -31,6 +31,8 @@ make %{?_smp_mflags}
 
 %install
 rm -rf $RPM_BUILD_ROOT
+mkdir -p %{buildroot}/usr/share/license
+cp COPYING %{buildroot}/usr/share/license/%{name}
 cd kpartx
 make install DESTDIR=$RPM_BUILD_ROOT bindir=/sbin
 
@@ -43,4 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/udev/rules.d/kpartx.rules
 /%{_lib}/udev/kpartx_id
 %{_mandir}/man8/kpartx.8.gz
-
+/usr/share/license/%{name}
